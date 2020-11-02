@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- First Mobile Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>First Project Using Bootstrap 3.2.0 & JQuery</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<script src="https://kit.fontawesome.com/26d4a64054.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/default_theme.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid Serif">
+	
+</head>
+<body>
+
+	<!-- Start Section Tool Box -->
+
+	<section class="option-box hidden-xs">
+		<div class="color-option">
+			<h4>Color Option</h4>
+			<ul class="list-unstyled">
+				<li data-value="css/default_theme.css"></li>
+				<li data-value="css/purple_theme.css"></li>
+				<li data-value="css/blue_theme.css"></li>
+				<li data-value="css/yellow_theme.css"></li>
+			</ul>
+		</div>
+		<i class="fas fa-cog fa-3x gear-check"></i>		<!-- gear-check is my class -->
+	</section>
+
+	<!-- End Section Tool Box -->
+
+	<!-- Start Our Navbar -->
+
+<nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+
+  	<div class="container-fluid"> <!-- Full Width -->
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand" href="#">Infinity<span> Inc.</span> </a>
+
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav navbar-right">
+
+        <li class="active"> <a href="#">Home</a> </li>
+
+        <li> <a href="#">About</a> </li>
+
+        <li> <a href="#">Company</a> </li>
+
+        <li class="dropdown">
+
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Services <span class="caret"> </span></a>
+
+			<ul class="dropdown-menu" role="menu">
+			  <li><a href="#">Programming</a></li>
+			  <li><a href="#">Web Design</a></li>
+			  <li><a href="#">Desktop</a></li>
+			  <li class="divider"></li>
+			  <li><a href="#">Web Hosting</a></li>
+			</ul>
+
+        </li>
+        <li> <a href="#">Map</a> </li>
+        <li> <a href="#">Contact</a> </li>
+
+      </ul>
+	 </div>
+	</div>
+</nav>
+
+<!-- End Our Navbar -->
+	
+		<!-- Start Slide Show (Carousel) -->
+
+	<div id="myslide" class="carousel slide hidden-xs" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+		  <li data-target="#myslide" data-slide-to="0" class="active"></li>
+		  <li data-target="#myslide" data-slide-to="1"></li>
+		  <li data-target="#myslide" data-slide-to="2"></li>
+		  <li data-target="#myslide" data-slide-to="3"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+  
+		  <!-- Item 1 Active item-->
+		  <div class="item active">
+			<img src="imgs/pen1.png" alt="PEN1">
+			<div class="carousel-caption">
+			  <h2 class="h1"> Programming </h2>
+			  <p class="lead">programming is the process of designing and building an executable computer program to accomplish a specific computing result or to perform a specific task</p>
+			</div>
+		  </div>
+
+	    <!-- Item 2-->
+	    <div class="item">
+	      <img src="imgs/pen2.png" alt="PEN2">
+	      <div class="carousel-caption">
+	      <h2 class="h1"> Web Design</h2>
+	       	<p class="lead">Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design (UI design).</p>
+	      </div>
+	    </div>
+
+	    <!-- Item 3-->
+	    <div class="item">
+	      <img src="imgs/pen3.png" alt="PEN3">
+	      <div class="carousel-caption">
+	      <h2 class="h1"> Desktop</h2>
+	       	<p class="lead">A desktop traditionally refers to: The surface of a desk (often to distinguish office appliances that fit on a desk, such as photocopiers and printers, from larger equipment covering its own area on the floor)</p>
+	      </div>
+	    </div>
+
+	    <!-- Item 4-->
+	    <div class="item">
+	      <img src="imgs/pen4.png" alt="PEN4">
+	      <div class="carousel-caption">
+	       <h2 class="h1"> Web Hosting</h2>
+	       	<p class="lead">A web hosting service is a type of Internet hosting service that allows individuals and organizations to make their website accessible via the World Wide Web.</p>
+	      </div>
+	    </div>
+
+	  </div>
+
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#myslide" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left"></span>
+	  </a>
+
+	  <a class="right carousel-control" href="#myslide" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right"></span>
+	  </a>
+	</div>
+
+	<!-- End Slide Show (Carousel)-->
+
+
+	<!-- Start Section About -->
+
+	<section class="about text-center">
+		<div class="container">
+		<h1> Meet Our New Template<span> Infinity Inc.</span></h1>
+		<p class="lead">Hello Let Me Introduce Our New Template Infinity Inc. Created With All The Love With <strong>Bootstrap</strong> 3.2.0</p>
+	</div>
+	</section>
+
+	<!-- End Section About -->
+
+
+	<!-- Start Section Features -->
+
+	<section class="features text-center">
+
+		<div class="container">
+			<h2 class="h1">Our Features</h2>
+		<div class="row">
+
+			<div class="col-lg-3 col-md-6">
+				<div class="feat">
+					<span class="glyphicon glyphicon-ok"></span>
+					<h4>100% Responsive</h4>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.	</p>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-6">
+				<div class="feat">
+					<span class="glyphicon glyphicon-thumbs-up"></span>
+					<h4>Retina Ready</h4>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.	</p>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-6">
+				<div class="feat">
+					<span class="glyphicon glyphicon-eye-open"></span>
+					<h4>Awesome Display</h4>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.	</p>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-6">
+				<div class="feat">
+					<span class="glyphicon glyphicon-pencil"></span>
+					<h4>Well Documented</h4>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				</div>
+			</div>
+
+	</div>
+	</section>
+
+	<!-- End Section Features -->
+
+
+	<!-- Start Testimonials Section  (Opinions of People) -->
+
+	<section class="testimonials text-center">
+
+		<div class="container">
+		 <h2 class="h1">What Our Clients Say?</h2>
+
+		<!-- Start Testimonial Carousel -->
+
+		<div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+
+		  	<!-- Item 1 Active item-->
+		    <div class="item active">
+		   		 <p class="lead"> Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.
+		   		 </p>
+		   		 <span>Bill Gates</span>
+		    </div>
+
+		    <!-- Item 2-->
+		    <div class="item">
+			    <p class="lead"> Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers.
+			    </p>
+			    <span>Anna Chapman</span>
+		    </div>
+
+		    <!-- Item 3-->
+		    <div class="item">
+			    <p class="lead"> Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.
+			    </p>
+			    <span>Steve Jobs</span>
+		    </div>
+
+		    <!-- Item 4-->
+		    <div class="item">
+		   		 <p class="lead">Bootstrap exclusively uses CSS3 for its animations, 
+		   		 	but Internet Explorer 8 & 9 don't support the necessary CSS properties.
+		   		 </p>
+		   		 <span>James Gosling</span>
+		    </div>
+
+		    
+		  </div>
+
+			   <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#carousel-testimonials" data-slide-to="0" class="active">
+			    	<img src="imgs/avatar_01.jpg" width="76" height="76" alt="Bill Gates">
+			    </li>
+			    <li data-target="#carousel-testimonials" data-slide-to="1">
+			    	<img src="imgs/avatar_02.jpg" width="76" height="81" alt="Anna Chapman">
+			    </li>
+			    <li data-target="#carousel-testimonials" data-slide-to="2">
+			    	<img src="imgs/avatar_03.jpg" width="76" height="81" alt="Steve Jobs">
+			    </li>
+			    <li data-target="#carousel-testimonials" data-slide-to="3">
+			    	<img src="imgs/avatar_04.jpg" width="76" height="76" alt="James Gosling">
+			    </li>
+			  </ol>
+
+		</div>
+
+		<!-- End Testimonial Carousel -->
+
+	</div>
+	</section>
+
+	<!-- End Testimonials Section  -->
+
+
+	<!-- Start Section Price Table -->
+
+	<section class="price_table text-center">
+		<div class="container">
+			
+			<h2 class="h1">Our Amazing Prices</h2>
+
+			<div class="row">
+				
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="price_box">
+						<h2 class="text-primary"> Hosting </h2>
+						<p class="center-block"> $40 </p>
+						<ul class="list-unstyled">
+							<li>Space: 30GB</li>
+							<li>Emails: 20</li>
+							<li>IPs: 2 IP</li>
+							<li>Databases: 10</li>
+							<li>FTP Accounts: 5</li>
+						</ul>
+						<a href="#" class="btn btn-primary">Order Now</a>
+					</div>	
+				</div>
+
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="price_box">
+						<h2 class="text-success"> Vps </h2>
+						<p class="center-block"> $50 </p>
+						<ul class="list-unstyled">
+							<li>Space: 50GB</li>
+							<li>Emails: 30</li>
+							<li>IPs: 5 IP</li>
+							<li>Databases: 20</li>
+							<li>FTP Accounts: 5</li>
+						</ul>
+						<a href="#" class="btn btn-success">Order Now</a>
+					</div>	
+				</div>
+
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="price_box">
+						<h2 class="text-info"> Dedicated </h2>
+						<p class="center-block"> $70 </p>
+						<ul class="list-unstyled">
+							<li>Space: 80GB</li>
+							<li>Emails: 40</li>
+							<li>IPs: 8 IP</li>
+							<li>Databases: 30</li>
+							<li>FTP Accounts: 20</li>
+						</ul>
+						<a href="#" class="btn btn-info">Order Now</a>
+					</div>	
+				</div>
+
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="price_box">
+						<h2 class="text-danger"> Cloud </h2>
+						<p class="center-block"> $90 </p>
+						<ul class="list-unstyled">
+							<li>Space: 90GB</li>
+							<li>Emails: 50</li>
+							<li>IPs: 10 IP</li>
+							<li>Databases: 50</li>
+							<li>FTP Accounts: 50</li>
+						</ul>
+						<a href="#" class="btn btn-danger">Order Now</a>
+					</div>	
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+	<!-- End Section Price Table -->
+
+
+	<!-- Start Section Our Team -->
+
+	<section class="our_team text-center">
+
+		<div class="team"> 
+
+			<div class="container"> <!-- 1170 -->
+
+				<h2 class="h1">Meet Our Awesome Team</h2>
+
+				<div class="row">
+
+					<div class="col-lg-3 col-sm-6">
+						<div class="person">
+							<img class="img-circle" src="imgs/bill_gates.jpg" alt="Bill Gates">
+							<h3>Bill Gates</h3>
+							<p>He is an American business magnate, software developer, and philanthropist. He is the co-founder of Microsoft Corporation.</p>
+							<a href="#"><i class="fab fa-google-plus gb fa-lg"></i></a>
+							<a href="#"><i class="fab fa-facebook fb fa-lg"></i></a>
+							<a href="#"><i class="fab fa-twitter tw fa-lg"></i></a>
+							<a href="#"><i class="fab fa-youtube yu fa-lg"></i></a>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-sm-6">
+						<div class="person">
+							<img class="img-circle" src="imgs/james_gosling.jpg" alt="James Gosling">
+							<h3>James Gosling</h3>
+							<p>He is a Canadian computer scientist, best known as the founder and lead designer behind the Java programming language.</p>
+							<a href="#"><i class="fab fa-google-plus gb fa-lg"></i></a>
+							<a href="#"><i class="fab fa-facebook fb fa-lg"></i></a>
+							<a href="#"><i class="fab fa-twitter tw fa-lg"></i></a>
+							<a href="#"><i class="fab fa-youtube yu fa-lg"></i></a>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-sm-6">
+						<div class="person">
+							<img class="img-circle" src="imgs/steve.jpg" alt="Steve Jobs">
+							<h3>Steve Jobs</h3>
+							<p>He is an American business magnate, industrial designer, investor, and media proprietor.</p>
+							<a href="#"><i class="fab fa-google-plus gb fa-lg"></i></a>
+							<a href="#"><i class="fab fa-facebook fb fa-lg"></i></a>
+							<a href="#"><i class="fab fa-twitter tw fa-lg"></i></a>
+							<a href="#"><i class="fab fa-youtube yu fa-lg"></i></a>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-sm-6">
+						<div class="person">
+							<img class="img-circle" src="imgs/marissa.jpg" alt="Marissa Mayer">
+							<h3>Marissa Mayer</h3>
+							<p>She is an American businesswoman and investor. She is an information technology executive, and co-founder of Lumi Labs.</p>
+							<a href="#"><i class="fab fa-google-plus gb fa-lg"></i></a>
+							<a href="#"><i class="fab fa-facebook fb fa-lg"></i></a>
+							<a href="#"><i class="fab fa-twitter tw fa-lg"></i></a>
+							<a href="#"><i class="fab fa-youtube yu fa-lg"></i></a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+		</div>
+		
+	</section>
+
+	<!-- End Section Our Team -->
+
+
+
+	<!-- Start Section Subscribe -->
+
+	<section class="subscribe text-center">
+		<div class="container">
+			<h2 class="h1">Be in touch</h2>
+			<p class="lead">Sign up for newsletter Don't worry about spam we hate it too.</p>
+			<form class="form-inline">
+				<input class="form-control input-lg" type="text" placeholder="Write Your Email">
+				<button class="btn btn-danger btn-lg"> <i class="far fa-edit fa-lg"> </i> Subscribe </button>
+			</form>
+		</div>
+	</section>
+
+	<!-- End Section Subscribe -->
+
+
+
+	<!-- Start Section Statistics -->
+
+	<section class="statistics text-center">
+		<div class="data">
+			<div class="container">
+				<h2 class="h1">Our Main Statistics</h2>
+				<div class="row">
+
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<div class="stats">
+							<i class="fas fa-users fa-5x"></i>
+							<p> 9,550</p>
+							<span>Satisfied Users</span>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<div class="stats">
+							<i class="fas fa-comments fa-5x"></i>
+							<p> 25,600</p>
+							<span>Posted Comments</span>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<div class="stats">
+							<i class="fas fa-suitcase fa-5x"></i>
+							<p> 3,260</p>
+							<span>Projects Done</span>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<div class="stats">
+							<i class="far fa-life-ring fa-5x"></i> <!-- life-ring == support in old version -->
+							<p> 95,350</p>
+							<span>Tickets Archieved</span>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+	</section>
+
+
+	<!-- End Section Statistics -->
+
+
+	<!-- Start Section Our Skills -->
+
+	<section class="our_skills">
+
+		<div class="container">
+
+			<h2 class="text-center h1">Our Skills</h2>
+
+			<div class="row">
+
+				<!-- Start Progress Skills -->
+
+				<div class="col-md-5">
+					<div class="skill_progress">
+
+						<div class="progress">
+							<div class="progress-bar progress-bar-success progress-bar-striped"
+							 role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+								Html5 / Css3
+							</div>
+						</div>
+
+						<div class="progress">
+							<div class="progress-bar progress-bar-danger progress-bar-striped"
+							 role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+								PHP / MySql
+							</div>
+						</div>
+
+						<div class="progress">
+							<div class="progress-bar progress-bar-warning progress-bar-striped"
+							 role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+								JavaScript / JQuery
+							</div>
+						</div>
+
+						<div class="progress">
+							<div class="progress-bar progress-bar-info progress-bar-striped"
+							 role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+								WordPress
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+				<!-- End Progress Skills -->
+
+
+				<!-- Start Team Info. -->
+
+				<div class="col-md-6 col-md-offset-1">
+					<h3>About The Team</h3>
+					<p class="lead">We are specialized designing and programming team passionate about web design and creating digital ideas we will transfer your idea to a digital dream and make your wish come true
+					</p>
+					<button type="button" class="btn btn-primary"> Talk With Professional</button>
+				</div>
+				
+				<!-- End Team Info. -->
+			</div>
+
+		</div>
+
+	</section>
+
+	<!-- End Section Our Skillss -->
+
+
+	<!-- Start Section Contact Us -->
+
+
+	<section class="contact_us text-center">
+
+		<div class="fields">
+			<div class="container">
+				<div class="row">
+
+					<i class="fas fa-headphones fa-5x"></i>
+					<h2 class="h1">Tell Us What You Feel</h2>
+					<p class="lead">Feel free to contact us any time </p>
+
+					<!-- Start Contact Form -->
+
+					<form role="form">
+						<div class="col-md-6"> 
+
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" placeholder="Username: ">
+							</div>
+							
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" placeholder="email: ">
+							</div>
+
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" placeholder="Cell phone">
+							</div>
+
+						</div>
+
+						<div class="col-md-6">
+							<div class="form-group">
+								<textarea class="form-control input-lg" placeholder="Your message"></textarea>
+							</div>
+							<button type="button" class="btn btn-primary btn-lg btn-block">Contact Us</button>
+						</div>
+					</form>
+
+					<!-- End Contact Form -->
+				</div>
+			</div>
+			
+		</div>
+	</section>
+
+	<!-- End Section Contact Us -->
+
+
+	<!-- Start Section Our Clients -->
+
+	<section class="our_clients">
+
+		<div class="container">
+
+			<div class="row">
+
+				<ul class="list-unstyled">
+					<li class="col-md-2 col-xs-4">
+						<a href="#"><img class="img-responsive center-block" src="imgs/our_clients/bbc.png"></a>
+					</li>
+
+					<li class="col-md-2 col-xs-4">
+						<a href="#"><img class="img-responsive center-block" src="imgs/our_clients/cnn.png"></a>
+					</li>
+
+					<li class="col-md-2 col-xs-4">
+						<a href="#"><img class="img-responsive center-block" src="imgs/our_clients/forbes.png"></a>
+					</li>
+
+					<li class="col-md-2 col-xs-4">
+						<a href="#"><img class="img-responsive center-block" src="imgs/our_clients/techradar.png"></a>
+					</li>
+
+					<li class="col-md-2 col-xs-4">
+						<a href="#"><img class="img-responsive center-block" src="imgs/our_clients/wired.png"></a>
+					</li>
+
+					<li class="col-md-2 col-xs-4">
+						<a href="#"><img class="img-responsive center-block" src="imgs/our_clients/wsj.png"></a>
+					</li>
+				</ul>
+
+			</div>
+			
+		</div>
+
+
+	</section>
+
+
+	<!-- End Section Our Clients -->
+
+
+
+
+
+	<!-- Start Ultimate Footer Section -->
+
+	<section class="footer">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+
+					<h3>Sitemap</h3>
+
+					<ul class="list-unstyled three_columns">
+						<li>Home</li>
+						<li>About</li>
+						<li>Company</li>
+						<li>Code</li>
+						<li>Design</li>
+						<li>Hosting</li>
+						<li>Solutions</li>
+						<li>Sitemap</li>
+						<li>Contact</li>
+					</ul>
+
+					<ul class="list-unstyled social_list">
+						<li><a href="#"><i class="fab fa-facebook fb fa-3x"></i></a></li>
+						<li><a href="#"><i class="fab fa-google-plus gb fa-3x"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter tw fa-3x"></i></a></li>
+						<li><a href="#"><i class="fab fa-pinterest pin fa-3x"></i></a></li>
+						<li><a href="#"><i class="fas fa-rss rs fa-3x"></i></a></li>
+						<li><a href="#"><i class="fas fa-envelope-square msg fa-3x"></i></a></li>
+					</ul>
+
+				</div>
+
+
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+					<h3> Latest Article </h3>
+
+					<!--Start Media Object -->
+
+					<div class="media">
+						<a class="pull-left" href="#">
+							<img class="media-object" src="imgs/01.jpg" width="64" height="64" alt="not found 01">
+						</a>
+
+						<div class="media-body">
+							<h4 class="media-heading">Programming</h4>
+							This is some text about programming describe the media of Bootstrap 3.2.0
+						</div>
+						
+					</div>
+
+					<div class="media">
+						<a class="pull-left" href="#">
+							<img class="media-object" src="imgs/02.jpg" width="64" height="64" alt="not found 02">
+						</a>
+
+						<div class="media-body">
+							<h4 class="media-heading">Coding</h4>
+							This is some text about programming describe the media of Bootstrap 3.2.0
+						</div>
+						
+					</div>
+
+					<div class="media">
+						<a class="pull-left" href="#">
+							<img class="media-object" src="imgs/03.jpg" width="64" height="64" alt="not found 03">
+						</a>
+
+						<div class="media-body">
+							<h4 class="media-heading">Design</h4>
+							This is some text about programming describe the media of Bootstrap 3.2.0
+						</div>
+						
+					</div>
+
+					<!--End Media Object -->
+				</div>
+
+
+				<div class="col-lg-4 col-xs-12 last_class">
+					<h3>Our Awesome Work</h3>
+
+					<img class="img-thumbnail" src="imgs/001.jpg" width="140" height="90" alt="not found 001"> 
+					<img class="img-thumbnail" src="imgs/002.jpg" width="140" height="90" alt="not found 002"> 
+					<img class="img-thumbnail" src="imgs/003.jpg" width="140" height="90" alt="not found 003"> 
+					<img class="img-thumbnail" src="imgs/004.jpg" width="140" height="90" alt="not found 004"> 
+				</div>
+				
+			</div>
+			
+		</div>
+
+		<div class="copyright text-center">
+			Copyright &copy; 2020 <span>Infinity </span>.Inc
+		</div>
+
+	</section>
+
+	<!-- End Ultimate Footer Section -->
+
+	<!-- Start Secion Loading... -->
+
+	<section class="loading-overlay">
+		<div class="sk-chase">
+			  <div class="sk-chase-dot"></div>
+			  <div class="sk-chase-dot"></div>
+			  <div class="sk-chase-dot"></div>
+			  <div class="sk-chase-dot"></div>
+			  <div class="sk-chase-dot"></div>
+			  <div class="sk-chase-dot"></div>
+		</div>
+	</section>
+
+	<!-- End Secion Loading... -->	
+
+
+	<!-- Start Scroll To Top Button -->
+
+	<div id="scroll-up">
+		<i class="fas fa-chevron-circle-up fa-3x"></i>
+	</div>
+
+
+	<!-- End Scroll To Top Button -->
+
+	<script src="js/jQuery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/plugins.js"></script>
+</body>
+</html>
+
+
+							
+							
