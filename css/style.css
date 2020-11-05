@@ -363,16 +363,16 @@ h1, h2, h3, h4, h5, .lead, .h1 { font-family: "Droid Serif", sans-serif, "Droid 
   filter:alpha(opacity=100);
 }
 
-.our_team .person .gb
+.our_team .person .fb
 {
-	background-color: #db4a39;
+	background-color: #00F; /* #4267B2; */
 	color: #FFF;
 	border-radius: 100%;
 }
 
-.our_team .person .fb
+.our_team .person .gb
 {
-	background-color: #4267B2;
+	background-color: #F00; /* #db4a39; */
 	color: #FFF;
 	border-radius: 100%;
 }
@@ -582,13 +582,13 @@ h1, h2, h3, h4, h5, .lead, .h1 { font-family: "Droid Serif", sans-serif, "Droid 
 
 .footer .social_list .fb
 {
-  background-color: #4267B2;
+  background-color: #00F; /* #4267B2; */
   border-radius: 100%;  
 }
 
 .footer .social_list .gb
 {
-  background-color: #db4a39;
+  background-color: #F00; /* #db4a39; */
   border-radius: 100%;
 }
 
@@ -596,7 +596,7 @@ h1, h2, h3, h4, h5, .lead, .h1 { font-family: "Droid Serif", sans-serif, "Droid 
 
 .footer .social_list .pin
 {
-  background-color: #BD081C;
+  background-color: #F00; /* #BD081C; */
   border-radius: 100%;
 }
 
